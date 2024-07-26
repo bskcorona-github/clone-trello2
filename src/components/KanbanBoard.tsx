@@ -202,7 +202,6 @@ function KanbanBoard() {
     const isOverTask = over.data.current?.type === "Task";
 
     if (!isActiveTask) return;
-    //Im dropping a task over another task
     if (isActiveTask && isOverTask) {
       setTasks((tasks) => {
         const activeIndex = tasks.findIndex((t) => t.id === activeId);
@@ -215,7 +214,6 @@ function KanbanBoard() {
     }
 
     const isOverAColumn = over.data.current?.type === "Column";
-    //im dropping a task over a column
     if (isActiveTask && isOverAColumn) {
       setTasks((tasks) => {
         const activeIndex = tasks.findIndex((t) => t.id === activeId);
