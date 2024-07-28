@@ -161,7 +161,6 @@ focus:outline-none
       absolute
       right-4
       top-1/2-translate-y-1/2
-      bg-columunBackgroundColor
       p-2
       rouded
       opacity-60

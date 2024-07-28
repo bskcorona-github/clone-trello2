@@ -20,3 +20,25 @@ body,
 .task > ::-webkit-scrollbar-thumb {
   @apply bg-sky-500 rounded-xl;
 }
+body {
+  font-family: sans-serif;
+  color: #666;
+}
+h1 {
+  font-size: 45px;
+  color: aliceblue;
+  font-weight: 600;
+  text-shadow: 2px 2px 2px black;
+}
+header {
+  text-align: center;
+  padding: 4px 10%;
+  margin-bottom: 50px;
+  background-color: #c6e5d9;
+}
+.app {
+  background: url(../src/images/PXL_20231214_051058278.jpg) no-repeat center
+    center;
+  background-repeat: no-repeat;
+  height: 100vh;
+}

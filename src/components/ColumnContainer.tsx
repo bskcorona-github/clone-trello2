@@ -147,7 +147,6 @@ function ColumnContainer(props: Props) {
           className="
             stroke-gray-500
             hover:stroke-white
-            hover:bg-columunBackgroundColor
             rouded
             px-1
             py-2
@@ -189,7 +188,7 @@ function ColumnContainer(props: Props) {
         }}
       >
         <Plusicon />
-        Add task
+        タスクを追加
       </button>
     </div>
   );

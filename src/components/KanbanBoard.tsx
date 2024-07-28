@@ -90,7 +90,7 @@ function KanbanBoard() {
         "
           >
             <Plusicon />
-            Add Column
+            カラムを追加
           </button>
         </div>
         {createPortal(
@@ -126,7 +126,7 @@ function KanbanBoard() {
     const newTask: Task = {
       id: generatedId(),
       columnId,
-      content: `Task${tasks.length + 1}`,
+      content: `タスク${tasks.length + 1}`,
     };
     setTasks([...tasks, newTask]);
   }
@@ -145,7 +145,7 @@ function KanbanBoard() {
   function createNewColumn() {
     const columunToAdd: Column = {
       id: generatedId(),
-      title: `Column ${columns.length + 1}`,
+      title: `カラム ${columns.length + 1}`,
     };
     setColumns([...columns, columunToAdd]);
   }
